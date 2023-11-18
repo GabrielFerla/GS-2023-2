@@ -1,28 +1,16 @@
 import { Link } from 'react-router-dom';
 //importando o o componente para ser estilizando
-import { NavDiv } from '../css/nav';
+import '../css/nav.css';
 
 function Nav() {
   return (
     // abertura do componente de estilização
-    <NavDiv>
-      <header className="header">
-        <nav className="headerMenu">
-          <ul>
-            <Link to="/" className="tlink">
-              Home
-            </Link>{' '}
-            {''}
-            <Link to="/escola" className="tlink">
-              Escola
-            </Link>
-            <Link to="/listarAlunos" className="tlink">
-              Listar Alunos
-            </Link>
-          </ul>
-        </nav>
+    <>
+      <header className="navbar">
+        <div className="title-left">Med</div>
+        <div className="title-right">Global Solution 2023 - Engenharia de Software</div>
       </header>
-    </NavDiv>
+    </>
     //fechamento do componente de estilização
   );
 }

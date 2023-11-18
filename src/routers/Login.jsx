@@ -1,6 +1,7 @@
 // Login.js
 import React, { useState } from 'react';
 import AuthService from '../routers/AuthService.jsx';
+import '../css/login.css';
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState('');
@@ -16,24 +17,24 @@ const Login = ({ onLogin }) => {
         sessionStorage.setItem('user', JSON.stringify(user));
         onLogin(user);
       } else {
-        alert('Login failed. Please check your username and password.');
+        alert('login inválido');
       }
     } catch (error) {
-      alert('An error occurred during login. Please try again later.');
+      alert('login inválido');
     }
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="login-container"> 
       <form onSubmit={handleLogin}>
+        <h2>Login</h2>
         <label>
-          Username:
+          Usuário:
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
         </label>
         <br />
         <label>
-          Password:
+          Senha:
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
         <br />

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.login-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title-left,
+.title-right {
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title-left {
+  left: 10px;
+}
+
+.title-right {
+  right: 10px;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: auto; /* Adicionado para manter o formulário centralizado */
+}
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+form label input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+form button:hover {
+  background-color: #45a049;
+}
+
+/*# sourceMappingURL=login.css.map */

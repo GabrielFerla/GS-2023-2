@@ -1,0 +1,21 @@
+.navbar {
+
+    .title-left,
+    .title-right {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    }
+
+    .title-left {
+    left: 10px;
+    }
+
+    .title-right {
+    right: 10px;
+    }
+
+}

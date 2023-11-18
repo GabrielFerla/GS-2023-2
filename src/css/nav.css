@@ -1,0 +1,17 @@
+.navbar .title-left,
+.navbar .title-right {
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.navbar .title-left {
+  left: 10px;
+}
+.navbar .title-right {
+  right: 10px;
+}
+
+/*# sourceMappingURL=nav.css.map */
