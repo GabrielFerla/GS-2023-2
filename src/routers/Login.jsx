@@ -11,16 +11,16 @@ const Login = ({ onLogin }) => {
     e.preventDefault();
 
     try {
-      const user = await AuthService.login(username, password);
+      const user = await AuthService.authenticate(username, password);
       
       if (user) {
         sessionStorage.setItem('user', JSON.stringify(user));
         onLogin(user);
       } else {
-        alert('login inválido');
+        alert('Login inválido');
       }
     } catch (error) {
-      alert('login inválido');
+      alert('Login inválido');
     }
   };
 

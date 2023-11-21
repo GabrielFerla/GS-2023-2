@@ -1,6 +1,7 @@
 import {} from 'react';
 import {FaFacebook} from "react-icons/fa6";
 import {FaGithub} from "react-icons/fa6";
+import '../css/rodape.css';
 
 function Rodape() {
   return (

@@ -1,5 +1,7 @@
 .navbar {
 
+    display: flex;
+    padding-top: 10px;
     .title-left,
     .title-right {
     position: absolute;
@@ -16,6 +18,14 @@
 
     .title-right {
     right: 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+        .title-right{
+            padding-top: 30px;
+            left: 10px;
+            padding-bottom: 30px;
+        }
     }
 
 }

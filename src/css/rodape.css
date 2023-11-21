@@ -1,0 +1,25 @@
+.rodape {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+.rodape h3 {
+  margin-bottom: 10px;
+}
+.rodape .redes {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+}
+.rodape .redes:hover {
+  color: #29b6f6;
+}
+@media screen and (max-width: 450px) {
+  .rodape {
+    margin-top: 170px;
+  }
+}
+
+/*# sourceMappingURL=rodape.css.map */

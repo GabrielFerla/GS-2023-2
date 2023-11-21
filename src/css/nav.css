@@ -1,3 +1,7 @@
+.navbar {
+  display: flex;
+  padding-top: 10px;
+}
 .navbar .title-left,
 .navbar .title-right {
   position: absolute;
@@ -12,6 +16,13 @@
 }
 .navbar .title-right {
   right: 10px;
+}
+@media screen and (max-width: 450px) {
+  .navbar .title-right {
+    padding-top: 30px;
+    left: 10px;
+    padding-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=nav.css.map */

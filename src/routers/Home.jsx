@@ -3,6 +3,7 @@ import '../css/home.css';
 
 const UserPanel = ({ user, onLogout }) => {
 
+    console.log(user);
   function logout() {
       sessionStorage.clear();
       window.location.reload();
@@ -10,12 +11,15 @@ const UserPanel = ({ user, onLogout }) => {
 
   return (
     <>
+
         <section className='container-grid-1'>
+            
             <article className='mainImg'>
                 <img src="./src/assets/remedio1.jpg" alt="Dont forget" />
             </article>
             <article className='sideText'>
                 <div>
+                    <p> Bem vindo: {user.nome} , {user.email} </p>
                     <h1>O que é a nossa solução</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim sed cupiditate consequuntur dolorum culpa praesentium veritatis dolor optio quis magnam, laudantium illo adipisci odit ex molestiae labore accusantium. Reiciendis.</p>
                 </div>
@@ -38,6 +42,8 @@ const UserPanel = ({ user, onLogout }) => {
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nesciunt nobis at officia libero nulla maxime beatae architecto, iusto ab vel perferendis aliquid velit reiciendis. Quisquam, nulla? Consequatur, fuga magni?</h4>
                 </div>
             </article>
+
+            
             <button className='btn'>Mais Informações</button>
         </section>
         <section className='container-grid-2'>

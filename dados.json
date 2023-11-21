@@ -1,42 +1,11 @@
 {
-  "users": [
+  "login": [
     {
       "id": 1,
       "username": "admin",
       "password": "12345",
-      "nome": "teste"
-    }
-  ],
-  "login": [
-    {
-      "username": "admin",
-      "password": "12345",
-      "id": 1
-    },
-    {
-      "username": "admin",
-      "password": "12345",
-      "id": 2
-    },
-    {
-      "username": "admin",
-      "password": "",
-      "id": 3
-    },
-    {
-      "username": "admin",
-      "password": "12345",
-      "id": 4
-    },
-    {
-      "username": "admin",
-      "password": "12345",
-      "id": 5
-    },
-    {
-      "username": "admin",
-      "password": "12345",
-      "id": 6
+      "nome": "teste",
+      "email": "fiapinho@fiapinho.com.br"
     }
   ]
 }
