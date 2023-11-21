@@ -4,8 +4,15 @@
       "id": 1,
       "username": "admin",
       "password": "12345",
-      "nome": "teste",
+      "nome": "Fiap um",
       "email": "fiapinho@fiapinho.com.br"
+    },
+    {
+      "id": 2,
+      "username": "fiap",
+      "password": "123456",
+      "nome": "Fiap dois",
+      "email": "fiapinho2@fiapinho.com.br"
     }
   ]
 }
