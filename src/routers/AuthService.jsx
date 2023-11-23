@@ -1,4 +1,4 @@
-// AuthService.js
+
 const baseURL = 'http://localhost:5000';
 
 const AuthService = {
@@ -13,7 +13,6 @@ const AuthService = {
       const data = await response.json();
   
       if (data.length === 1) {
-        // Authentication successful
         
         return data[0];
 

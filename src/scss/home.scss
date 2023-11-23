@@ -23,8 +23,8 @@
         ". btn btn .";
     }
 
-    @media screen and (max-width: 389px){
-        height: 190vh;
+    @media screen and (max-width: 400px){
+        height: 220vh;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
@@ -117,6 +117,18 @@
 
 .btn{
     grid-area: btn;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #332;
+    }
 }
 
 .secondTitle{
@@ -136,6 +148,17 @@
     button{
         height: fit-content;
         padding: 1rem 4rem;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #000;
+        transition: background-color 0.3s ease;
+        &:hover {
+            background-color: #332;
+        }
     }
 }
 

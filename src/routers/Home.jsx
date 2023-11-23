@@ -1,9 +1,8 @@
 import React from 'react';
 import '../css/home.css';
 
-const UserPanel = ({ user, onLogout }) => {
+const UserPanel = ({ user }) => {
 
-    console.log(user);
   function logout() {
       sessionStorage.clear();
       window.location.reload();
@@ -11,7 +10,6 @@ const UserPanel = ({ user, onLogout }) => {
 
   return (
     <>
-
         <section className='container-grid-1'>
             
             <article className='mainImg'>
@@ -54,7 +52,7 @@ const UserPanel = ({ user, onLogout }) => {
                 <button onClick={logout}><h2>Logout</h2></button>
             </div>
             <div className='card1'>
-                <img src="./src/assets/remedio1.jpg" alt="Dont forget" />
+                <img src="./src/assets/remedios2.jpg" alt="Dont forget" />
                 <div>
                     <h1>01</h1>
                     <h2>Lorem ipsum.</h2>
@@ -62,7 +60,7 @@ const UserPanel = ({ user, onLogout }) => {
                 </div>
             </div>
             <div className='card2'>
-                <img src="./src/assets/remedio1.jpg" alt="Dont forget" />
+                <img src="./src/assets/remedios3.jpg" alt="Dont forget" />
                 <div>
                     <h1>02</h1>
                     <h2>Lorem ipsum.</h2>
@@ -70,7 +68,7 @@ const UserPanel = ({ user, onLogout }) => {
                 </div>
             </div>
             <div className='card3'>
-                <img src="./src/assets/remedio1.jpg" alt="Dont forget" />
+                <img src="./src/assets/remedios4.jpg" alt="Dont forget" />
                 <div>
                     <h1>03</h1>
                     <h2>Lorem ipsum.</h2>
