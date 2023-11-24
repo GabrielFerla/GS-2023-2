@@ -19,7 +19,7 @@ const UserPanel = ({ user }) => {
                 <div>
                     <p> Bem vindo: {user.nome} , {user.email} </p>
                     <h1>O que é a nossa solução</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim sed cupiditate consequuntur dolorum culpa praesentium veritatis dolor optio quis magnam, laudantium illo adipisci odit ex molestiae labore accusantium. Reiciendis.</p>
+                    <p>Lorem ipsutesteconsectetur adipisicing elit. Nulla enim sed cupiditate consequuntur dolorum culpa praesentium veritatis dolor optio quis magnam, laudantium illo adipisci odit ex molestiae labore accusantium. Reiciendis.</p>
                 </div>
                 <hr />
                 <div>
