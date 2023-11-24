@@ -1,6 +1,6 @@
 .container-grid-1 {
   height: 120vh;
-  padding-top: 50px;
+  padding-top: 70px;
   padding: 50px 10px;
   display: grid;
   grid-template-columns: 2fr 3fr 2fr 5fr;
@@ -10,17 +10,18 @@
 }
 @media screen and (max-width: 740px) {
   .container-grid-1 {
-    height: 180vh;
+    height: 190vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "mainImg mainImg mainImg mainImg" "mainTitle mainTitle smallTitle smallTitle" "sideText sideText sideText sideText" ". btn btn .";
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .container-grid-1 {
-    height: 220vh;
+    height: 265vh;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "mainImg mainImg mainImg" "mainTitle mainTitle mainTitle" "smallTitle smallTitle smallTitle" "sideText sideText sideText" ". btn .";
+    margin-top: 25px;
   }
 }
 .container-grid-1 article {
@@ -35,14 +36,9 @@
 }
 @media screen and (max-width: 740px) {
   .container-grid-2 {
-    height: 64vh;
+    height: 110vh;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "secondTitle logoutBtn" "card1 card1" "card2 card2" "card3 card3";
-  }
-}
-@media screen and (max-width: 357px) {
-  .container-grid-2 h1 {
-    font-size: 2.1rem;
   }
 }
 

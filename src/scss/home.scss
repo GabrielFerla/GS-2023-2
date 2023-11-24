@@ -1,6 +1,6 @@
 .container-grid-1{
     height: 120vh;
-    padding-top: 50px;
+    padding-top: 70px;
     padding: 50px 10px;
 
     display: grid;
@@ -14,7 +14,7 @@
     ". . btn sideText";
 
     @media screen and (max-width: 740px){
-        height: 180vh;
+        height: 190vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "mainImg mainImg mainImg mainImg"
@@ -23,8 +23,8 @@
         ". btn btn .";
     }
 
-    @media screen and (max-width: 400px){
-        height: 220vh;
+    @media screen and (max-width: 420px){
+        height: 265vh;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
@@ -33,6 +33,7 @@
         "smallTitle smallTitle smallTitle"
         "sideText sideText sideText"
         ". btn .";
+        margin-top: 25px;
     }
 
     article{
@@ -50,7 +51,7 @@
     "card1 card2 card3";
 
     @media screen and (max-width: 740px){
-        height: 64vh;
+        height: 110vh;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "secondTitle logoutBtn"
@@ -59,11 +60,6 @@
         "card3 card3";
     }
 
-    @media screen and (max-width: 357px){
-        h1{
-            font-size: 2.1rem;
-        }
-    }
 }
 
 .mainImg{

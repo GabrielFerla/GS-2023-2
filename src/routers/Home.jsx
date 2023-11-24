@@ -56,7 +56,7 @@ const UserPanel = ({ user }) => {
                 <div>
                     <h1>01</h1>
                     <h2>Otimização</h2>
-                    <p>Em um cenário em constante evolução, impulsionado pela revolução digital, a interseção entre tecnologia e cuidados com a saúde tem redefinido paradigmas e estabelecido novas fronteiras na prestação de serviços médicos. Nesse contexto, surge uma proposta inovadora que promete não apenas modernizar, mas também otimizar a relação entre médicos e pacientes: a prescrição digital personalizada. Este conceito visionário representa um salto significativo na integração da tecnologia para aprimorar a gestão de tratamentos médicos, oferecendo uma abordagem contemporânea que transcende os limites das prescrições tradicionais em papel. .</p>
+                    <p>Prescrição digital personalizada: avanço tecnológico na gestão de tratamentos médicos.</p>
                 </div>
             </div>
             <div className='card2'>
@@ -64,7 +64,7 @@ const UserPanel = ({ user }) => {
                 <div>
                     <h1>02</h1>
                     <h2>Comunicação.</h2>
-                    <p>Ao proporcionar aos pacientes uma interface interativa, acessível através de um simples link, a prescrição digital não apenas simplifica a administração de medicamentos, mas também fortalece a comunicação entre médicos e pacientes, solidificando o compromisso compartilhado com a saúde e o bem-estar. Neste contexto, exploraremos os benefícios e implicações dessa inovação, destacando seu potencial transformador no panorama da assistência à saúde. </p>
+                    <p>Prescrição digital: simplifica administração, fortalece comunicação, transforma assistência à saúde. </p>
                 </div>
             </div>
             <div className='card3'>
@@ -72,7 +72,7 @@ const UserPanel = ({ user }) => {
                 <div>
                     <h1>03</h1>
                     <h2>Tratativa</h2>
-                    <p>As dores experimentadas pelos pacientes incluem a ansiedade associada à possibilidade de esquecer uma dose importante, a confusão decorrente de instruções pouco claras e a falta de uma ferramenta prática para acompanhar e compreender completamente seus regimes de tratamento. Para os médicos, a dificuldade de monitorar de perto o cumprimento das prescrições e a necessidade de uma comunicação mais eficiente com os pacientes são dores significativas que podem impactar diretamente na eficácia dos cuidados prestados. </p>
+                    <p>Doença do esquecimento, instruções confusas: pacientes. Monitoramento, comunicação eficiente: desafios para médicos. </p>
                 </div>
             </div>
         </section>
