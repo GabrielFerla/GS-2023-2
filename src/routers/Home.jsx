@@ -33,7 +33,7 @@ const UserPanel = ({ user }) => {
                 </div>
             </article>
             <div className='mainTitle'>
-                <h1>Nome da Solução</h1>
+                <h1>MED</h1>
             </div>
             <article className='smallTitle'>
                 <div>
